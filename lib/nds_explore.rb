@@ -8,11 +8,11 @@ def pretty_print_nds(nds)
 
 end
 
-def print_first_directors_movie_titles
+def print_first_directors_movie_titles(nds)
 
   i = 0;
-  while i < pretty_print_nds.length do
-    puts pretty_print_nds[i]
+  while i < nds.length do
+    puts nds[i]
     
   end
 end
